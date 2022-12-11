@@ -1,0 +1,590 @@
+/* common css start  */
+
+:root {
+    --white: #fff;
+    --bg-color: #f1f3f3;
+    --shadow: #0000001a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: #00ACEE; */
+}
+
+
+/* common css end  */
+
+
+/* -------========= art-about page start =========------- */
+
+
+/* about section start  */
+
+.about-area {
+    margin: 30px 0;
+}
+
+.about-area .about-header h1 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.about-area .about-details h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.about-area .about-details p {
+    color: #888;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.about-area .about-details span {
+    color: #888;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about-area .about-details .share {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.about-area .about-details .about-share {
+    width: 100%;
+    height: 40px;
+}
+
+.about-area .about-details .about-share ul {
+    display: flex;
+}
+
+.about-area .about-details .about-share ul li {
+    margin-right: 5px;
+    transition: all linear .1s;
+}
+
+.about-area .about-details .about-share ul li:nth-child(1):hover {
+    margin-top: -5px;
+}
+
+.about-area .about-details .about-share ul li:nth-child(2):hover {
+    margin-top: -5px;
+}
+
+.about-area .about-details .about-share ul li:nth-child(3):hover {
+    margin-top: -5px;
+}
+
+.about-area .about-details .about-share ul li:nth-child(4):hover {
+    margin-top: -5px;
+}
+
+.about-area .about-details .about-share ul li:nth-child(5):hover {
+    margin-top: -5px;
+}
+
+.about-area .about-details .about-share ul li:nth-child(6):hover {
+    margin-top: -5px;
+}
+
+.about-area .about-details .about-share ul li:nth-child(7):hover {
+    margin-top: -5px;
+}
+
+.about-area .about-details .about-share ul li a {
+    padding: 7px 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0 0 4px #000;
+}
+
+.about-area .about-details .about-share span {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.about-area .about-details .about-share a i {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.about-area .about-details .about-share .facebook {
+    background-color: #3B5998;
+}
+
+.about-area .about-details .about-share .messenger {
+    background-color: #006AFF;
+}
+
+.about-area .about-details .about-share .whatsapp {
+    background-color: #25D366;
+}
+
+.about-area .about-details .about-share .gmail {
+    background-color: #EA4335;
+}
+
+.about-area .about-details .about-share .linkedin {
+    background-color: #0072B1;
+}
+
+.about-area .about-details .about-share .twitter {
+    background-color: #00ACEE;
+}
+
+.about-area .about-details .about-share .pinterest {
+    background-color: #C8232C;
+}
+
+
+/* about-right  */
+
+.about-information {
+    margin-left: 15px;
+}
+
+.about-info-header h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.about-profile {
+    border-radius: 4px;
+    box-shadow: 0 0 10px #00000086;
+    overflow: hidden;
+}
+
+.about-profile .about-profile-img {
+    width: 100%;
+    height: 280px;
+    padding: 6px;
+}
+
+.about-profile .about-profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-profile .about-profile-btn {
+    text-align: center;
+    margin: 10px;
+}
+
+.about-profile .about-profile-btn a {
+    color: #fff;
+    background-color: #006AFF;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 7px 7px;
+}
+
+.about-profile .about-profile-content table {
+    width: 100%;
+}
+
+.about-profile .about-profile-content table td {
+    padding: 3px 10px;
+}
+
+.about-profile .about-profile-content table td strong {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.about-area .about-profile .about-profile-content .artist-type {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 10px;
+}
+
+
+/* right end  */
+
+
+/* about section end  */
+
+
+/* filter gellary section start  */
+
+.filter-area .container h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.filter-area .art-work-content {
+    padding: 20px 10px;
+}
+
+.filter-area .art-work-content a:hover {
+    color: #3749bb;
+}
+
+.filter-area .art-work-content h4 {
+    color: #333;
+    font-size: 22px;
+    font-weight: 400px;
+    transition: all linear .3s;
+}
+
+.filter-area .art-work-content h4:hover {
+    color: #3749bb;
+}
+
+.filter-area .art-work-content p {
+    color: #888;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+}
+
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+.column {
+    display: none;
+    margin-bottom: 20px;
+    width: 24.35%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Content */
+
+#myBtnContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    box-shadow: 0 0 13px 2px #0000001a;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content .img {
+    position: relative;
+    border: 5px solid #000;
+    padding: 30px;
+}
+
+.content .overly {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.content .overly:hover {
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.content i {
+    background: aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
+
+.show {
+    display: block;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: #eee;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    box-shadow: 0 0 4px #888;
+    transition: all linear .3s
+}
+
+.btn:hover {
+    color: white;
+    background-color: #3749bb;
+}
+
+.btn.active {
+    color: white;
+    background-color: #3749bb;
+}
+
+
+/* filter gellary section end  */
+
+
+/* -------========= art-about page  end =========------- */
+
+
+/* -------====== all-art-details page start ======------- */
+
+
+/* artwork img zoom section */
+
+.all-art-details-area {
+    margin: 70px;
+}
+
+
+/* xzoom start  */
+
+.xzoom-area .xzoom-thumbs {
+    margin: 20px 0;
+    text-align: start;
+}
+
+.xzoom-area .xzoom {
+    width: 400px;
+    height: 450px;
+    box-shadow: 1px 4px 8px #aaa;
+}
+
+.xzoom-area .xzoom-gallery {
+    border: 1px solid #aaa;
+}
+
+.xzoom-area .xzoom-gallery:hover {
+    border: 1px solid #378bbf;
+    box-shadow: 1px 4px 8px #aaa;
+}
+
+.xzoom-area .xzoom-lens {
+    cursor: zoom-in;
+}
+
+
+/* xzoom end  */
+
+
+/* all-art-details-content */
+
+.all-art-details-area .all-art-details-header a {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 2px;
+    text-align: end;
+}
+
+.all-art-details-area .all-art-details-content {
+    justify-content: end;
+}
+
+.all-art-details-area .all-art-details-content h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 20px;
+}
+
+.all-art-details-area .all-art-details-content ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.all-art-details-area .all-art-details-content ul li span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.all-art-details-area .all-art-details-content .view-more {
+    border-top: 1px solid #999999;
+}
+
+.all-art-details-area .all-art-details-content .view-more .art-details-price {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin: 15px 0;
+}
+
+.all-art-details-area .all-art-details-content .view-more a {
+    display: inline-block;
+    background-color: #333333;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 6px 55px;
+    border: none;
+    transition: all linear .3s;
+}
+
+.all-art-details-area .all-art-details-content .view-more a:hover {
+    background-color: #0000ff;
+}
+
+.all-art-details-area .art-share a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    transition: all linear .3s;
+}
+
+.all-art-details-area .art-share a:hover {
+    color: #0000ff;
+}
+
+
+/* all-art-details page end */
+
+
+/* ============about the work section start  ============= */
+
+.about-work-area {
+    margin-top: 20px;
+}
+
+.about-work-area .about-work {
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+.about-work-area .about-work span {
+    border-bottom: 1px solid #000000;
+    padding: 12px 0;
+}
+
+.about-work-area .about-work span a {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.about-work-area .about-work-content p {
+    color: #888;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: justify;
+    border-radius: 4px;
+    border: 1px solid #0000001a;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.about-work-area .about-work-details {
+    height: 500px;
+    box-shadow: 0 0 2px 2px var(--shadow);
+}
+
+.about-work-area .about-work-details .about-work-img {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 90px;
+    border: 5px solid #999;
+    position: relative;
+}
+
+.about-work-area .about-work-details .about-work-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.about-work-area .about-work-details a {
+    text-align: center;
+}
+
+.about-work-area .about-work-details h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all linear.3s;
+}
+
+.about-work-area .about-work-details h2:hover {
+    color: #006AFF;
+}
+
+.about-work-area .about-work-details p {
+    text-align: center;
+}
+
+.about-art-work-top {
+    border: 1px solid #0000001a;
+    border-radius: 4px;
+}
+
+.about-art-work-top ul {
+    margin-bottom: 0;
+}
+
+.about-art-work-top .about-art-work-top-content {
+    margin-right: 100px;
+}
+
+
+/* ============about the work section end  ============= */
+
+
+/* all-art-details page end */

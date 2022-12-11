@@ -1,0 +1,91 @@
+/* =============reswponsive start ============= */
+
+
+/* about-page  start  */
+
+
+/* about area start  */
+
+@media (max-width: 768px) {
+    .about-area .about-header h1 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .about-area .about-details h2 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .about-area .about-details p {
+        font-size: 14px;
+        margin: 11px 0;
+    }
+    .about-area .about-details span {
+        font-size: 18px;
+    }
+    .about-area .about-details .share {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .about-area .about-details .about-share span {
+        display: none;
+    }
+    .about-area .about-details .about-share ul li {
+        margin-right: 10px;
+    }
+    .about-area .about-details .about-share a i {
+        font-size: 16px;
+        margin-right: 0;
+    }
+    .about-area .about-info-header h2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .about-area .about-profile .about-profile-content table td {
+        padding: 5px 27px;
+    }
+    /* about area end  */
+    /* filter gallery start  */
+    .filter-area .container h2 {
+        font-size: 20px;
+    }
+    .filter-area .btn {
+        font-size: 14px;
+        padding: 5px 14px;
+    }
+    .column {
+        width: 32.35%;
+    }
+    .content .img {
+        padding: 25px;
+    }
+    .filter-area .art-work-content h4 {
+        font-size: 17px;
+    }
+    .filter-area .art-work-content p {
+        font-size: 13px;
+    }
+    /* ========================= */
+    .zoomerPosition {
+        top: 500px;
+        left: 400px;
+    }
+}
+
+@media (max-width: 425px) {
+    .about-area .about-details .about-share ul li {
+        margin-right: 8px;
+    }
+    .filter-area .container h2 {
+        font-size: 16px;
+    }
+    .filter-area .btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    .btn {
+        margin-right: 6px;
+    }
+    .column {
+        width: 99.35%;
+    }
+}
